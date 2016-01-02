@@ -16,13 +16,15 @@ The code is not very tested, and the code supposes nothing can ever go wrong.
 
 Mount your iPod nano 7th gen.
 
-The first time you do this, you have to restore your iPod (with iTunes, or on the iPod itself) and copy Locations.itdb to <mount_point>/iPod_Control/iTunes/iTunes\ Library.itlp/ (untested iPods other than mine).
+The first time you do this, you have to restore your iPod (with iTunes, or on the iPod itself) and copy Locations.itdb to `<mount_point>/iPod_Control/iTunes/iTunes\ Library.itlp/` (untested iPods other than mine).
 
 Then, several commands are available :
 
+```
 ./main <mount_point> clear # erase everything
 ./main <mount_point> add <music_file> # add a track
 ./main <mount_point> adddir <music_directory> # add a whole music folder
+```
 
 # Requirements
 
